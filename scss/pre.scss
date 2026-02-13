@@ -5,7 +5,7 @@
 $rn-green:      #009B3A !default; // Flag Green (Primary Identity)
 $rn-forest:     #006425 !default; // Deep Forest Green (Secondary Identity - Depth/Contrast)
 $rn-white:      #FFFFFF !default; // Flag White
-$rn-yellow:     #FFC107 !default; // Warm Amber (Modern Accent)
+$rn-yellow:     $rn-forest !default; // Forest Green (Two-tone palette)
 $rn-red:        #CE1126 !default; // Flag Red (Danger/Alerts)
 
 // --- Neutral Palette ---
@@ -21,7 +21,7 @@ $primary:       $rn-green !default;
 $secondary:     $rn-forest !default; // Updated from Yellow to Forest Green for professionalism
 $success:       #28a745 !default; // Standard success or maybe slightly lighter green
 $info:          #17a2b8 !default; // Standard distinct info color
-$warning:       $rn-yellow !default;
+$warning:       $rn-forest !default;
 $danger:        $rn-red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-800 !default;
