@@ -1,6 +1,6 @@
 <?php
 defined('MOODLE_INTERNAL') || die();
-$plugin->version   = 2026021200;
+$plugin->version   = 2026021201;
 $plugin->requires  = 2023100900;
 $plugin->component = 'theme_demolaypotiguar';
 $plugin->dependencies = ['theme_boost' => 2023100900];
