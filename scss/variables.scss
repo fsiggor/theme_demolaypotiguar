@@ -1,0 +1,47 @@
+// Rio Grande do Norte (Potiguar) Flag Colors
+// Modern, accessible interpretation tailored for clean UI
+
+// --- Base Brand Colors ---
+$rn-green:      #009B3A !default; // Flag Green (Primary Identity)
+$rn-forest:     #006425 !default; // Deep Forest Green (Secondary Identity - Depth/Contrast)
+$rn-white:      #FFFFFF !default; // Flag White
+$rn-yellow:     $rn-forest !default; // Forest Green (Two-tone palette)
+$rn-red:        #CE1126 !default; // Flag Red (Danger/Alerts)
+
+// --- Neutral Palette ---
+$gray-100:      #F8F9FA !default; // Ultra-light background
+$gray-200:      #E9ECEF !default; // Borders
+$gray-600:      #6C757D !default; // Muted text
+$gray-800:      #343A40 !default; // Primary text
+$gray-900:      #212529 !default; // Headings
+
+// --- Theme Semantic Colors ---
+$brand-color:   $rn-green !default;
+$primary:       $rn-green !default;
+$secondary:     $rn-forest !default; // Updated from Yellow to Forest Green for professionalism
+$success:       #28a745 !default; // Standard success or maybe slightly lighter green
+$info:          #17a2b8 !default; // Standard distinct info color
+$warning:       $rn-forest !default;
+$danger:        $rn-red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-800 !default;
+
+// --- Scaffolding & Typography ---
+$body-bg:       $gray-100 !default; // Soft off-white for reduced eye strain
+$body-color:    $gray-800 !default; // Dark grey instead of pure black
+$headings-color: $gray-900 !default;
+
+// --- Links & Interactions ---
+// Darken primary slightly for better text contrast on light backgrounds
+$link-color:            darken($rn-green, 5%) !default;
+$link-hover-color:      darken($rn-green, 15%) !default;
+
+// --- Components ---
+$component-active-bg:   $rn-green !default;
+$border-color:          $gray-200 !default;
+
+// --- Custom Potiguar Variables ---
+// Specific variables for theme customization if needed later
+$potiguar-header-bg:    $rn-white !default;
+$potiguar-footer-bg:    $rn-green !default;
+$potiguar-footer-text:  $rn-white !default;

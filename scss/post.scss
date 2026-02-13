@@ -1,6 +1,2 @@
-/* Theme Demolay Potiguar Logo Styling */
-.navbar-brand .logo {
-    height: 40px; /* Adjust height as needed */
-    width: auto;
-    max-width: 200px;
-}
+// Import component partials
+@import "components/logo";
